@@ -1,1 +1,4 @@
-# recursion-online-chat-messenger
+Recursionのバックエンドプロジェクト Online chat messengerです。
+クライアントはまず、tcpソケットを介してサーバにリクエストを送ります。
+サーバはリクエストに応じた処理を行い、チャットルームのアドレスをクライアントへ返し、
+実際のトークにはudpソケットを使用します。
